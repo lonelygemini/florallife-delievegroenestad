@@ -1,0 +1,39 @@
+@import url("https://use.typekit.net/mrx8cxp.css"
+);
+
+h1 {font-family: "thirsty-script", sans-serif;
+    font-weight: 400;}
+
+html {max-width: 375px;
+background-color: #ecf7fa;}
+
+body p {font-family: "roca", sans-serif;
+font-weight: 400;
+color:#307157;
+font-size: 18px;
+line-height: 22px;
+}
+
+nav ul {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration-line: none;
+    gap: 43px;
+    background-color: #63c29e;
+    margin: 20px;
+    padding: 20px;
+border-radius: 20px;
+position: fixed;}
+
+#block p {margin-top: 30px;}
+
+#block img {object-position: center;}
+
+#block {background-color: white;
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;}
