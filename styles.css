@@ -19,6 +19,12 @@ html {max-width: 375px;
 background-image:url("images/over-ons-back.jpg");
 background-attachment: fixed;}
 
+.logo_onlyflower {position: relative;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+}
+
 p {font-family: "roca", sans-serif;
 font-weight: 400;
 color:#307157;
@@ -53,15 +59,74 @@ nav ul {display: flex;
     border-radius: 20px;
     height: 380px;}
 
-    #responsive-block {background-color: white;
+#block-other {background-color: white;
         margin: 10px;
-        margin-top: 187px;
-        margin-bottom: 187px;
+        margin-top: 40px;
+        margin-bottom: 20px;
         padding: 30px;
         border-radius: 20px;
+        height: 380px;}
+
+ #responsive-block {background-color: white;
+     margin: 10px;
+     margin-top: 187px;
+    margin-bottom: 147px;
+    padding: 30px;
+    border-radius: 20px;
         }
 
 #responsive-block p {font-family: "roca", sans-serif;
+    font-size: 12px;
+font-weight: 300;
+line-height: 16px;}
+
+#first-section {background-color: white;
+    margin: 10px;
+    margin-top: 187px;
+    margin-bottom: 50px;
+   padding: 30px;
+   border-radius: 20px;
+}
+
+#first-section p {font-family: "roca", sans-serif;
+    font-size: 12px;
+font-weight: 300;
+line-height: 16px;}
+
+#first-section a {background-color: #307157;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+font-size: 12px;
+border-radius: 10px;
+text-decoration: none;}
+
+section {background-color: white;
+    margin: 10px;
+    margin-bottom: 50px;
+   padding: 30px;
+   border-radius: 20px;}
+   
+section p {font-family: "roca", sans-serif;
+    font-size: 12px;
+font-weight: 300;
+line-height: 16px;}
+
+
+#first-section img {margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+#end-section {background-color: white;
+    margin: 10px;
+    margin-bottom: 147px;
+   padding: 30px;
+   border-radius: 20px;
+}
+
+#end-section p {font-family: "roca", sans-serif;
     font-size: 12px;
 font-weight: 300;
 line-height: 16px;}
