@@ -68,6 +68,13 @@ nav ul {display: flex;
     border-radius: 20px;
     height: 380px;}
 
+#block-home {background-color: white;
+    margin: 10px;
+    margin-top: 72px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    height: 380px;}
 
 #block-other {background-color: white;
         margin: 10px;
