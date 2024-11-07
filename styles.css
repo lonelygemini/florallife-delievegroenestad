@@ -9,11 +9,20 @@ line-height: 64px;
 margin: auto;
 margin-bottom: 25px;}
 
-h2 {font-family: "roca", sans-serif;
+h2 {font-family: "thirsty-script", sans-serif;
+    font-weight: 400;
+    color:#63c29e;
+font-size: 40px;
+line-height: 44px;
+margin: auto;
+margin-bottom: 25px;}
+
+h3 {font-family: "roca", sans-serif;
 font: weight 700px;
 font-size: 25px;
 line-height: 29px;
 color:#63c29e;}
+
 
 html {max-width: 375px;
 background-image:url("images/over-ons-back.jpg");
@@ -102,22 +111,31 @@ font-size: 12px;
 border-radius: 10px;
 text-decoration: none;}
 
+#first-section img {margin-top: 5px;
+    margin-bottom: 15px;}
+
 section {background-color: white;
     margin: 10px;
     margin-bottom: 50px;
    padding: 30px;
    border-radius: 20px;}
+
+section a {background-color: #307157;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-decoration: none;}
    
 section p {font-family: "roca", sans-serif;
     font-size: 12px;
 font-weight: 300;
 line-height: 16px;}
 
-
-#first-section img {margin-top: 5px;
-    margin-bottom: 15px;
-
-}
+section img {margin-top: 5px;
+    margin-bottom: 15px;}
 
 #end-section {background-color: white;
     margin: 10px;
@@ -126,7 +144,19 @@ line-height: 16px;}
    border-radius: 20px;
 }
 
+#end-section a {background-color: #307157;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-decoration: none;}
+
 #end-section p {font-family: "roca", sans-serif;
     font-size: 12px;
 font-weight: 300;
 line-height: 16px;}
+
+#end-section img {margin-top: 5px;
+    margin-bottom: 15px;}
