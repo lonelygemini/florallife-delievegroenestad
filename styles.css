@@ -2,12 +2,24 @@
 );
 
 h1 {font-family: "thirsty-script", sans-serif;
-    font-weight: 400;}
+    font-weight: 400;
+    color:#63c29e;
+font-size: 60px;
+line-height: 64px;
+margin: auto;
+margin-bottom: 25px;}
+
+h2 {font-family: "roca", sans-serif;
+font: weight 700px;
+font-size: 25px;
+line-height: 29px;
+color:#63c29e;}
 
 html {max-width: 375px;
-background-color: #ecf7fa;}
+background-image:url("images/over-ons-back.jpg");
+background-attachment: fixed;}
 
-body p {font-family: "roca", sans-serif;
+p {font-family: "roca", sans-serif;
 font-weight: 400;
 color:#307157;
 font-size: 18px;
@@ -15,25 +27,41 @@ line-height: 22px;
 }
 
 nav ul {display: flex;
+    box-sizing: border-box;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     list-style-type: none;
     text-decoration-line: none;
+    margin: 20px;
+    padding: 0px;
     gap: 43px;
     background-color: #63c29e;
-    margin: 20px;
-    padding: 20px;
-border-radius: 20px;
-position: fixed;}
+    width: 310px;
+    height: 80px;
+    border-radius: 20px;
+    position: fixed;}
 
-#block p {margin-top: 30px;}
-
-#block img {object-position: center;}
+#block image {margin-bottom: 30px;}
 
 #block {background-color: white;
     margin: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding: 30px;}
+    padding: 30px;
+    border-radius: 20px;
+    height: 380px;}
+
+    #responsive-block {background-color: white;
+        margin: 10px;
+        margin-top: 187px;
+        margin-bottom: 187px;
+        padding: 30px;
+        border-radius: 20px;
+        }
+
+#responsive-block p {font-family: "roca", sans-serif;
+    font-size: 12px;
+font-weight: 300;
+line-height: 16px;}
